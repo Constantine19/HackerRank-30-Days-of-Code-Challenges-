@@ -1,8 +1,7 @@
 T = int(input())
 
 for j in range (0,T):
-    even = list()
-    odd = list()
+    even, odd = [],[]
     S = raw_input()
     i = 0
     for letter in S:
