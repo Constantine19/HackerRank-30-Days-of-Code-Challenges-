@@ -1,4 +1,3 @@
-
 T = int(input())
 
 for j in range (0,T):
@@ -7,7 +6,7 @@ for j in range (0,T):
     i = 0
 
     for letter in S:        
-        if (i%2 != 0):
+        if i%2 != 0:
             odd.append(letter)
         else:
             even.append(letter)
